@@ -1,0 +1,17 @@
+2026-09-08T16:31:09  ----------------------------------------------------------------------------------------------------
+Error 1705, File access is denied c:\fox\tastrade\tastrade.pjx.
+loadmodule, 18751
+Use (.c_InputFile) Shared Again Noupdate Alias _TABLAORIG
+
+Recno: 0
+.............................................
+
+Recno: 0
+.............................................
+FoxBin2Prg: [C:\FOX\THOR\THOR\TOOLS\COMPONENTS\FOXBIN2PRG\FOXBIN2PRG.EXE] (EXE Version: v1.21.04)
+tc_InputFile = [C:\FOX\TASTRADE\TASTRADE.PJX]
+
+Source file: C:\fox\tastrade\tastrade.pjx
+
+
+

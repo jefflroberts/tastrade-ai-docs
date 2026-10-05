@@ -1,0 +1,66 @@
+2026-09-09T17:29:59 VFP windows visible at harness start, now hidden: Standard; 
+2026-09-09T17:29:59 harness start; pass entry; VFP Visual FoxPro 09.00.0000.5815 for Windows; output C:\fox\tastrade\baseline-entry-eb70\; REPORTBEHAVIOR 80; ENGINEBEHAVIOR 70 (forced by the harness); screen 1024x700; default printer BROTHER MFC-L2717DW-AIRPRINT
+2026-09-09T17:29:59 DO C:\fox\tastrade\tastrade.exe
+2026-09-09T17:29:59 sentinel: modal introform (Introform) 'Introductory Form' as introform
+2026-09-09T17:30:02 form introform ok (469x328 modal)
+2026-09-09T17:30:02 sentinel: dismissed introform with cmdContinue.Click()
+2026-09-09T17:30:02 application ready: CURDIR \FOX\TASTRADE\, PATH PROGS, FORMS, LIBS,  MENUS, DATA, OTHER,  REPORTS, INCLUDE, HELP,  BITMAPS, DBC C:\FOX\TASTRADE\DATA\TASTRADE.DBC, menu bars 6
+2026-09-09T17:30:06 screen main ok (main window after start-up, no form open)
+2026-09-09T17:30:06 step 1 entry-customer customer
+2026-09-09T17:30:09 form customer-before ok (604x352)
+2026-09-09T17:30:09 customer: max $6,300.00, min was $2,600.00, set to 999999
+2026-09-09T17:30:14 form customer-typed ok (604x352)
+2026-09-09T17:30:14 customer: Save() returned .T.
+2026-09-09T17:30:17 form customer-rule ok (604x352)
+2026-09-09T17:30:20 form customer-restored ok (604x352)
+2026-09-09T17:30:21 step 2 entry-shipper shipper
+2026-09-09T17:30:24 form shipper-before ok (520x121)
+2026-09-09T17:30:24 answer for the next dialog: Yes
+2026-09-09T17:30:28 shipper: Delete() returned .F.
+2026-09-09T17:30:32 form shipper-delete-refused ok (520x121)
+2026-09-09T17:30:33 step 3 entry-order ordentry
+2026-09-09T17:30:37 form ordentry-before ok (607x354)
+2026-09-09T17:30:40 form ordentry-new ok (607x354)
+2026-09-09T17:30:41 order: Save() with no item returned .F.
+2026-09-09T17:30:45 form ordentry-noitems ok (607x354)
+2026-09-09T17:30:49 form ordentry-filled ok (607x354)
+2026-09-09T17:30:50 order: Save() below the minimum returned .F.
+2026-09-09T17:30:54 form ordentry-belowmin ok (607x354)
+2026-09-09T17:30:57 form ordentry-filled-over ok (607x354)
+2026-09-09T17:30:59 order: Save() for a customer over the credit limit returned .F.
+2026-09-09T17:31:03 form ordentry-overcredit ok (607x354)
+2026-09-09T17:31:06 form ordentry-filled-noshipper ok (607x354)
+2026-09-09T17:31:08 order: Save() with no shipper returned .F.
+2026-09-09T17:31:11 form ordentry-noshipper ok (607x354)
+2026-09-09T17:31:14 form ordentry-restored ok (607x354)
+2026-09-09T17:31:15 step 4 modal custadd
+2026-09-09T17:31:15 sentinel: modal frmAddCustomer (Tsbaseform) 'Add Customer' as custadd
+2026-09-09T17:31:18 form custadd ok (599x354 modal)
+2026-09-09T17:31:23 form custadd-rule ok (599x354 modal)
+2026-09-09T17:31:23 sentinel: dismissed custadd with cmdCancel.Click()
+2026-09-09T17:31:23 driver custadd returned
+2026-09-09T17:31:24 step 5 modal chngpswd
+2026-09-09T17:31:25 sentinel: modal frmChangePassword (Tsbaseform) 'Change Password' as chngpswd
+2026-09-09T17:31:28 form chngpswd ok (426x168 modal)
+2026-09-09T17:31:30 form chngpswd-filled ok (426x168 modal)
+2026-09-09T17:31:36 form chngpswd-mismatch ok (426x168 modal)
+2026-09-09T17:31:36 sentinel: dismissed chngpswd with cmdCancel.Click()
+2026-09-09T17:31:36 driver chngpswd returned
+2026-09-09T17:31:37 step 6 modal chngpswd-empty
+2026-09-09T17:31:37 sentinel: modal frmChangePassword (Tsbaseform) 'Change Password' as chngpswd-empty
+2026-09-09T17:31:40 form chngpswd-empty ok (426x168 modal)
+2026-09-09T17:31:42 sentinel: scenario closed chngpswd-empty
+2026-09-09T17:31:42 driver chngpswd-empty returned
+2026-09-09T17:31:44 step 7 retval loginpicture
+2026-09-09T17:31:44 sentinel: modal loginpicture (Loginpicture) 'Login' as loginpicture
+2026-09-09T17:31:47 form loginpicture ok (437x316 modal)
+2026-09-09T17:31:50 form loginpicture-filled ok (437x316 modal)
+2026-09-09T17:31:55 form loginpicture-badpassword ok (437x316 modal)
+2026-09-09T17:31:55 sentinel: dismissed loginpicture with cmdCancel.Click()
+2026-09-09T17:31:55 driver loginpicture returned (uRetVal )
+2026-09-09T17:31:56 step 8 report listempl
+2026-09-09T17:31:56 answer for the next dialog: KEYS:{DOWN}{ENTER}
+2026-09-09T17:32:23 report listempl ok
+2026-09-09T17:32:24 step 9 done 
+2026-09-09T17:32:26 screen end ok (main window after every form was released)
+2026-09-09T17:32:26 CLEAR EVENTS; 33 log rows; the application's shutdown and QUIT follow

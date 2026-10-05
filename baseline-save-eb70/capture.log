@@ -1,0 +1,51 @@
+2026-09-09T18:43:31 VFP windows visible at harness start, now hidden: Standard; 
+2026-09-09T18:43:31 harness start; pass save; VFP Visual FoxPro 09.00.0000.5815 for Windows; output C:\fox\tastrade\baseline-save-eb70\; REPORTBEHAVIOR 80; ENGINEBEHAVIOR 70 (forced by the harness); screen 1024x700; default printer BROTHER MFC-L2717DW-AIRPRINT
+2026-09-09T18:43:31 DO C:\fox\tastrade\tastrade.exe
+2026-09-09T18:43:31 sentinel: modal introform (Introform) 'Introductory Form' as introform
+2026-09-09T18:43:35 form introform ok (469x328 modal)
+2026-09-09T18:43:35 sentinel: dismissed introform with cmdContinue.Click()
+2026-09-09T18:43:35 application ready: CURDIR \FOX\TASTRADE\, PATH PROGS, FORMS, LIBS,  MENUS, DATA, OTHER,  REPORTS, INCLUDE, HELP,  BITMAPS, DBC C:\FOX\TASTRADE\DATA\TASTRADE.DBC, menu bars 6
+2026-09-09T18:43:38 screen main ok (main window after start-up, no form open)
+2026-09-09T18:43:38 step 1 save-customer customer
+2026-09-09T18:43:41 form customer-before ok (604x352)
+2026-09-09T18:43:41 customer: contact title was 'Sales Representative', set to 'Baseline Reviewer'
+2026-09-09T18:43:42 customer: Save() returned .T.
+2026-09-09T18:43:45 form customer-saved ok (604x352)
+2026-09-09T18:43:45 step 2 modal custadd
+2026-09-09T18:43:46 sentinel: modal frmAddCustomer (Tsbaseform) 'Add Customer' as custadd
+2026-09-09T18:43:49 form custadd ok (599x354 modal)
+2026-09-09T18:43:51 form custadd-filled ok (599x354 modal)
+2026-09-09T18:43:52 sentinel: scenario closed custadd
+2026-09-09T18:43:52 driver custadd returned
+2026-09-09T18:43:53 step 3 save-order ordentry
+2026-09-09T18:43:56 form ordentry-before ok (607x354)
+2026-09-09T18:44:01 form ordentry-filled ok (607x354)
+2026-09-09T18:44:01 order: Save() returned .T.
+2026-09-09T18:44:04 form ordentry-saved ok (607x354)
+2026-09-09T18:44:09 form ordhist-linked ok (606x354)
+2026-09-09T18:44:12 form ordhist-tagged ok (606x354)
+2026-09-09T18:44:15 form ordentry-copied ok (607x354)
+2026-09-09T18:44:15 order: Save() of the copied order returned .T.
+2026-09-09T18:44:18 form ordentry-copied-saved ok (607x354)
+2026-09-09T18:44:20 step 4 modal chngpswd
+2026-09-09T18:44:20 sentinel: modal frmChangePassword (Tsbaseform) 'Change Password' as chngpswd
+2026-09-09T18:44:23 form chngpswd ok (426x168 modal)
+2026-09-09T18:44:26 form chngpswd-filled ok (426x168 modal)
+2026-09-09T18:44:27 sentinel: scenario closed chngpswd
+2026-09-09T18:44:27 driver chngpswd returned
+2026-09-09T18:44:27 step 5 retval loginpicture
+2026-09-09T18:44:27 sentinel: modal loginpicture (Loginpicture) 'Login' as loginpicture
+2026-09-09T18:44:30 form loginpicture ok (437x316 modal)
+2026-09-09T18:44:30 login: combo shows 'Buchanan', value '     1'
+2026-09-09T18:44:33 form loginpicture-filled ok (437x316 modal)
+2026-09-09T18:44:33 sentinel: dismissed loginpicture with cmdCancel.Click()
+2026-09-09T18:44:33 driver loginpicture returned (uRetVal )
+2026-09-09T18:44:34 step 6 save-delete customer
+2026-09-09T18:44:37 form customer-before ok (604x352)
+2026-09-09T18:44:40 form customer-positioned ok (604x352)
+2026-09-09T18:44:40 answer for the next dialog: Yes
+2026-09-09T18:44:42 customer: Delete() of BASEL returned .T.
+2026-09-09T18:44:45 form customer-deleted ok (604x352)
+2026-09-09T18:44:47 step 7 done 
+2026-09-09T18:44:49 screen end ok (main window after every form was released)
+2026-09-09T18:44:49 CLEAR EVENTS; 24 log rows; the application's shutdown and QUIT follow

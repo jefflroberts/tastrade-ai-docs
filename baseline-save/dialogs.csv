@@ -1,0 +1,25 @@
+﻿seq,time,title,text,buttons,pressed,file
+1,"18:42:05","An error has occurred","SQL: GROUP BY clause is missing or invalid.Method: remainingcreditLine: 75","Abort/Retry/Ignore","Ignore","dialogs\01.png"
+2,"18:42:07","An error has occurred","Variable 'TOTALORDER' is not found.Method: remainingcreditLine: 77","Abort/Retry/Ignore","Ignore","dialogs\02.png"
+3,"18:42:09","An error has occurred","Alias 'ORDERAMOUNTS' is not found.Method: remainingcreditLine: 80","Abort/Retry/Ignore","Ignore","dialogs\03.png"
+4,"18:42:10","An error has occurred","Operator/operand type mismatch.Method: remainingcreditLine: 84","Abort/Retry/Ignore","Ignore","dialogs\04.png"
+5,"18:42:17","Tasmanian Traders","An order must have at least one line item.","OK","OK","dialogs\05.png"
+6,"18:42:23","An error has occurred","SQL: GROUP BY clause is missing or invalid.Method: remainingcreditLine: 75","Abort/Retry/Ignore","Ignore","dialogs\06.png"
+7,"18:42:24","An error has occurred","Variable 'TOTALORDER' is not found.Method: remainingcreditLine: 77","Abort/Retry/Ignore","Ignore","dialogs\07.png"
+8,"18:42:26","An error has occurred","Alias 'ORDERAMOUNTS' is not found.Method: remainingcreditLine: 80","Abort/Retry/Ignore","Ignore","dialogs\08.png"
+9,"18:42:28","An error has occurred","Operator/operand type mismatch.Method: remainingcreditLine: 84","Abort/Retry/Ignore","Ignore","dialogs\09.png"
+10,"18:42:30","An error has occurred","Operator/operand type mismatch.Method: valorderLine: 138","Abort/Retry/Ignore","Ignore","dialogs\10.png"
+11,"18:42:31","An error has occurred","Operator/operand type mismatch.Method: valorderLine: 139","Abort/Retry/Ignore","Ignore","dialogs\11.png"
+12,"18:42:33","An error has occurred","Function argument value, type, or count is invalid.Method: valorderLine: 145","Abort/Retry/Ignore","Ignore","dialogs\12.png"
+13,"18:42:35","An error has occurred","Operator/operand type mismatch.Method: valorderLine: 146","Abort/Retry/Ignore","Ignore","dialogs\13.png"
+14,"18:42:36","Tasmanian Traders","Customer order total must be at least $500.00Save anyway?","Yes/No","No","dialogs\14.png"
+15,"18:42:38","An error has occurred","SQL: GROUP BY clause is missing or invalid.Method: remainingcreditLine: 75","Abort/Retry/Ignore","Ignore","dialogs\15.png"
+16,"18:42:40","An error has occurred","Variable 'TOTALORDER' is not found.Method: remainingcreditLine: 77","Abort/Retry/Ignore","Ignore","dialogs\16.png"
+17,"18:42:41","An error has occurred","Alias 'ORDERAMOUNTS' is not found.Method: remainingcreditLine: 80","Abort/Retry/Ignore","Ignore","dialogs\17.png"
+18,"18:42:43","An error has occurred","Operator/operand type mismatch.Method: remainingcreditLine: 84","Abort/Retry/Ignore","Ignore","dialogs\18.png"
+19,"18:42:45","An error has occurred","Operator/operand type mismatch.Method: Operator/operand type mismatch.Line: 0","Abort/Retry/Ignore","Ignore","dialogs\19.png"
+20,"18:42:46","An error has occurred","SQL: GROUP BY clause is missing or invalid.Method: remainingcreditLine: 75","Abort/Retry/Ignore","Ignore","dialogs\20.png"
+21,"18:42:48","An error has occurred","Variable 'TOTALORDER' is not found.Method: remainingcreditLine: 77","Abort/Retry/Ignore","Ignore","dialogs\21.png"
+22,"18:42:50","An error has occurred","Alias 'ORDERAMOUNTS' is not found.Method: remainingcreditLine: 80","Abort/Retry/Ignore","Ignore","dialogs\22.png"
+23,"18:42:51","An error has occurred","Operator/operand type mismatch.Method: remainingcreditLine: 84","Abort/Retry/Ignore","Ignore","dialogs\23.png"
+24,"18:43:18","Delete Warning","Are you sure you want to delete this record?","Yes/No","Yes","dialogs\24.png"

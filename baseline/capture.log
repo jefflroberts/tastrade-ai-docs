@@ -1,0 +1,138 @@
+2026-09-09T16:35:22 VFP windows visible at harness start, now hidden: Standard; 
+2026-09-09T16:35:22 harness start; VFP Visual FoxPro 09.00.0000.5815 for Windows; output C:\fox\tastrade\baseline\; REPORTBEHAVIOR 80; ENGINEBEHAVIOR 90 (VFP 9 default); screen 1024x700; default printer BROTHER MFC-L2717DW-AIRPRINT
+2026-09-09T16:35:22 DO C:\fox\tastrade\tastrade.exe
+2026-09-09T16:35:23 sentinel: modal introform (Introform) 'Introductory Form' as introform
+2026-09-09T16:35:26 form introform ok (469x328 modal)
+2026-09-09T16:35:26 sentinel: dismissed introform with cmdContinue.Click()
+2026-09-09T16:35:26 application ready: CURDIR \FOX\TASTRADE\, PATH PROGS, FORMS, LIBS,  MENUS, DATA, OTHER,  REPORTS, INCLUDE, HELP,  BITMAPS, DBC C:\FOX\TASTRADE\DATA\TASTRADE.DBC, menu bars 6
+2026-09-09T16:35:29 screen main ok (main window after start-up, no form open)
+2026-09-09T16:35:29 step 1 form customer
+2026-09-09T16:35:33 form customer ok (604x352)
+2026-09-09T16:35:35 screen customer ok (main window with frmcustomers open)
+2026-09-09T16:35:38 form toolbar ok
+2026-09-09T16:35:41 form customer-page2 ok (604x352)
+2026-09-09T16:35:42 step 2 form employee
+2026-09-09T16:35:45 form employee ok (556x321)
+2026-09-09T16:35:48 screen employee ok (main window with frmemployee open)
+2026-09-09T16:35:50 form employee-page2 ok (556x321)
+2026-09-09T16:35:53 form employee-page3 ok (556x321)
+2026-09-09T16:35:54 step 3 form product
+2026-09-09T16:35:58 form product ok (581x236)
+2026-09-09T16:36:00 screen product ok (main window with frmproducts open)
+2026-09-09T16:36:03 form product-page2 ok (581x236)
+2026-09-09T16:36:04 step 4 form supplier
+2026-09-09T16:36:08 form supplier ok (529x326)
+2026-09-09T16:36:10 screen supplier ok (main window with frmsuppliers open)
+2026-09-09T16:36:13 form supplier-page2 ok (529x326)
+2026-09-09T16:36:14 step 5 form category
+2026-09-09T16:36:17 form category ok (456x250)
+2026-09-09T16:36:20 screen category ok (main window with frmcategory open)
+2026-09-09T16:36:23 form category-page2 ok (456x250)
+2026-09-09T16:36:24 step 6 form shipper
+2026-09-09T16:36:28 form shipper ok (520x121)
+2026-09-09T16:36:30 screen shipper ok (main window with frmshippers open)
+2026-09-09T16:36:33 form shipper-page2 ok (520x121)
+2026-09-09T16:36:34 step 7 form ordentry
+2026-09-09T16:36:34 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T16:36:34 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T16:36:34 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T16:36:34 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T16:36:34 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T16:36:34 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T16:36:34 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T16:36:34 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T16:36:41 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T16:36:41 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T16:36:41 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T16:36:41 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T16:36:41 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T16:36:41 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T16:36:41 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T16:36:41 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T16:36:45 form ordentry ok (607x354)
+2026-09-09T16:36:47 screen ordentry ok (main window with frmorderentry open)
+2026-09-09T16:36:49 step 8 form ordhist
+2026-09-09T16:36:51 ERROR 2005 Error loading file - record number 11.  grdLineItems <or one of its members>.  ControlSource : Alias 'CITEMS' is not found in TASTRADE.DOFORM line 3
+2026-09-09T16:36:51 error TASTRADE.DOFORM error (2005 Error loading file - record number 11.  grdLineItems <or one of its members>.  ControlSource : Alias 'CITEMS' is not found line 3)
+2026-09-09T16:36:52 form ordhist no form (no active form after DoForm)
+2026-09-09T16:36:52 step 9 form behindsc
+2026-09-09T16:36:56 form behindsc ok (609x333)
+2026-09-09T16:36:58 screen behindsc ok (main window with frmbehindsc open)
+2026-09-09T16:36:58 sentinel: modal frmViewCode (Tstextform) 'Code Window' as viewcode
+2026-09-09T16:37:01 form viewcode ok (578x341 modal)
+2026-09-09T16:37:01 sentinel: dismissed viewcode with cmdClose.Click()
+2026-09-09T16:37:03 step 10 modal reports
+2026-09-09T16:37:03 sentinel: modal frmreports (Tsbaseform) 'Print' as reports
+2026-09-09T16:37:06 form reports ok (364x229 modal)
+2026-09-09T16:37:09 form reports-listings ok (364x229 modal)
+2026-09-09T16:37:09 sentinel: dismissed reports with cmdClose.Click()
+2026-09-09T16:37:09 driver reports returned
+2026-09-09T16:37:10 step 11 modal chngpswd
+2026-09-09T16:37:10 sentinel: modal frmChangePassword (Tsbaseform) 'Change Password' as chngpswd
+2026-09-09T16:37:13 form chngpswd ok (426x168 modal)
+2026-09-09T16:37:13 sentinel: dismissed chngpswd with cmdCancel.Click()
+2026-09-09T16:37:13 driver chngpswd returned
+2026-09-09T16:37:14 step 12 modal rebuild
+2026-09-09T16:37:14 sentinel: modal frmDatabaseUtils (Tsbaseform) 'Database Utilities' as rebuild
+2026-09-09T16:37:17 form rebuild ok (252x130 modal)
+2026-09-09T16:37:17 sentinel: dismissed rebuild with cmdCancel.Click()
+2026-09-09T16:37:17 driver rebuild returned
+2026-09-09T16:37:18 step 13 modal custadd
+2026-09-09T16:37:18 sentinel: modal frmAddCustomer (Tsbaseform) 'Add Customer' as custadd
+2026-09-09T16:37:21 form custadd ok (599x354 modal)
+2026-09-09T16:37:21 sentinel: dismissed custadd with cmdCancel.Click()
+2026-09-09T16:37:21 driver custadd returned
+2026-09-09T16:37:23 step 14 modal casestdy
+2026-09-09T16:37:23 sentinel: modal frmcasestudy (Tstextform) 'Case Study' as casestdy
+2026-09-09T16:37:26 form casestdy ok (578x341 modal)
+2026-09-09T16:37:26 sentinel: dismissed casestdy with cmdClose.Click()
+2026-09-09T16:37:26 driver casestdy returned
+2026-09-09T16:37:27 step 15 retval loginpicture
+2026-09-09T16:37:27 sentinel: modal loginpicture (Loginpicture) 'Login' as loginpicture
+2026-09-09T16:37:30 form loginpicture ok (437x316 modal)
+2026-09-09T16:37:30 sentinel: dismissed loginpicture with cmdCancel.Click()
+2026-09-09T16:37:30 driver loginpicture returned (uRetVal )
+2026-09-09T16:37:31 step 16 retval findcustomer
+2026-09-09T16:37:31 sentinel: modal findcustomer (Findcustomer) 'Find Customer' as findcustomer
+2026-09-09T16:37:34 form findcustomer ok (450x280 modal)
+2026-09-09T16:37:34 sentinel: dismissed findcustomer with cmdCancel.Click()
+2026-09-09T16:37:34 driver findcustomer returned (uRetVal )
+2026-09-09T16:37:35 step 17 retval findorder
+2026-09-09T16:37:36 sentinel: modal findorder (Findorder) 'Find Order' as findorder
+2026-09-09T16:37:39 form findorder ok (450x280 modal)
+2026-09-09T16:37:39 sentinel: dismissed findorder with cmdCancel.Click()
+2026-09-09T16:37:39 driver findorder returned (uRetVal )
+2026-09-09T16:37:40 step 18 about about
+2026-09-09T16:37:40 sentinel: modal aboutbox (Aboutbox) 'About Tasmanian Traders' as about
+2026-09-09T16:37:43 form about ok (374x282 modal)
+2026-09-09T16:37:43 sentinel: dismissed about with cmdOK.Click()
+2026-09-09T16:37:43 driver about returned
+2026-09-09T16:37:44 step 19 report listcat
+2026-09-09T16:38:06 report listcat ok
+2026-09-09T16:38:07 step 20 report listcust
+2026-09-09T16:38:28 report listcust ok
+2026-09-09T16:38:29 step 21 report listempl
+2026-09-09T16:38:55 report listempl ok
+2026-09-09T16:38:55 step 22 report listprod
+2026-09-09T16:39:16 report listprod ok
+2026-09-09T16:39:17 step 23 report listship
+2026-09-09T16:39:37 report listship ok
+2026-09-09T16:39:37 step 24 report listsupp
+2026-09-09T16:39:54 report listsupp ok
+2026-09-09T16:39:55 step 25 report orders
+2026-09-09T16:40:25 report orders ok
+2026-09-09T16:40:25 step 26 report salesdet
+2026-09-09T16:40:49 report salesdet ok
+2026-09-09T16:40:50 step 27 report salessum
+2026-09-09T16:40:54 report salessum ok
+2026-09-09T16:40:55 step 28 report topcust
+2026-09-09T16:40:55 report topcust no pages
+2026-09-09T16:40:56 step 29 report behindsc
+2026-09-09T16:40:58 report behindsc ok (harness opened data\behindsc.dbf, first record)
+2026-09-09T16:40:58 step 30 report casestdy
+2026-09-09T16:40:58 report casestdy no pages
+2026-09-09T16:40:59 step 31 report viewcode
+2026-09-09T16:41:03 report viewcode ok (harness supplied cursor viewcode with progs\main.prg as its text)
+2026-09-09T16:41:04 step 32 done 
+2026-09-09T16:41:06 screen end ok (main window after every form was released)
+2026-09-09T16:41:06 CLEAR EVENTS; 70 log rows; the application's shutdown and QUIT follow

@@ -1,0 +1,26 @@
+# Keep the VFP source byte-exact. No line-ending normalization anywhere.
+* -text
+
+# VFP binaries (DBF-structured containers and memo files)
+*.scx binary
+*.sct binary
+*.vcx binary
+*.vct binary
+*.frx binary
+*.frt binary
+*.mnx binary
+*.mnt binary
+*.pjx binary
+*.pjt binary
+*.dbc binary
+*.dct binary
+*.dcx binary
+*.dbf binary
+*.fpt binary
+*.cdx binary
+*.app binary
+*.chm binary
+*.chi binary
+*.bmp binary
+*.ico binary
+*.msk binary

@@ -1,0 +1,13 @@
+﻿seq,time,title,text,buttons,pressed,file
+1,"17:30:11","Tasmanian Traders","Minimum order amount must be less than or equal to maximum order amount.","OK","OK","dialogs\01.png"
+2,"17:30:26","Delete Warning","Are you sure you want to delete this record?","Yes/No","Yes","dialogs\02.png"
+3,"17:30:28","Tasmanian Traders","Shipper exists on orders. Cannot delete!","OK","OK","dialogs\03.png"
+4,"17:30:41","Tasmanian Traders","An order must have at least one line item.","OK","OK","dialogs\04.png"
+5,"17:30:50","Tasmanian Traders","Customer order total must be at least $2600.00Save anyway?","Yes/No","No","dialogs\05.png"
+6,"17:30:59","Tasmanian Traders","Customer is over their maximimun order amount by $12228.34Save anyway?","Yes/No","No","dialogs\06.png"
+7,"17:31:08","Tasmanian Traders","All orders must have a customer and a shipper.(Delivery Info)","OK","OK","dialogs\07.png"
+8,"17:31:20","Tasmanian Traders","Customer ID cannot be empty.","OK","OK","dialogs\08.png"
+9,"17:31:32","Tasmanian Traders","Cannot confirm new password. Please try again.","OK","OK","dialogs\09.png"
+10,"17:31:42","Tasmanian Traders","You have not yet entered the old password. Do you want to continue?","Yes/No","No","dialogs\10.png"
+11,"17:31:52","Microsoft Visual FoxPro","Password is invalid. (See Hint textbox)","OK","OK","dialogs\11.png"
+12,"17:32:16","Report Parameters","VFP form gettitle opened by a report data environment; width 308 px on screen","OK (default)/Cancel","{DOWN}{ENTER}","forms\gettitle.png"

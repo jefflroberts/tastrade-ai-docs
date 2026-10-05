@@ -1,0 +1,3 @@
+COMMAND=DO C:\fox\tastrade\tools\baseline\capture.prg WITH 0, "baseline"
+RESOURCE=OFF
+SCREEN=ON

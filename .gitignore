@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+# written by running tastrade.exe from the repo root (RESOURCE=ON default)
+FOXUSER.DBF
+FOXUSER.FPT
+# run marker of tools/baseline/run_capture.ps1, and VFP's compiled harness
+baseline*/CAPTURED.txt
+tools/baseline/*.FXP
+tools/baseline/*.fxp
+tools/baseline/capture-run.fpw
+# written by VFP at QUIT when started with -c (Command window contents)
+_command.prg
+
+# Microsoft's Tastrade source, which you copy in yourself to rerun the tools.
+# It is not licensed for redistribution, so it must never be committed here.
+/bitmaps/
+/data/
+/forms/
+/help/
+/include/
+/libs/
+/menus/
+/other/
+/progs/
+/reports/
+/tastrade.*
+/foxbin2prg_errorlog.ERR
+# screenshots from a capture run depict Microsoft's UI; keep them local
+baseline*/**/*.png
+baseline*/*.png

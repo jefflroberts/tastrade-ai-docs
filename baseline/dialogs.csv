@@ -1,0 +1,8 @@
+﻿seq,time,title,text,buttons,pressed,file
+1,"16:36:36","An error has occurred","SQL: GROUP BY clause is missing or invalid.Method: remainingcreditLine: 75","Abort/Retry/Ignore","Ignore","dialogs\01.png"
+2,"16:36:38","An error has occurred","Variable 'TOTALORDER' is not found.Method: remainingcreditLine: 77","Abort/Retry/Ignore","Ignore","dialogs\02.png"
+3,"16:36:39","An error has occurred","Alias 'ORDERAMOUNTS' is not found.Method: remainingcreditLine: 80","Abort/Retry/Ignore","Ignore","dialogs\03.png"
+4,"16:36:41","An error has occurred","Operator/operand type mismatch.Method: remainingcreditLine: 84","Abort/Retry/Ignore","Ignore","dialogs\04.png"
+5,"16:36:51","An error has occurred","SQL: GROUP BY clause is missing or invalid.Method: tsbaseform.dataenvironment.OpenTablesLine: 0","Abort/Retry/Ignore","Ignore","dialogs\05.png"
+6,"16:38:48","Report Parameters","VFP form gettitle opened by a report data environment; width 308 px on screen","OK (default)/Cancel","Enter","forms\gettitle.png"
+7,"16:40:15","Report Parameters","VFP form getinv opened by a report data environment; width 267 px on screen","OK (default)/Cancel","Enter","forms\getinv.png"

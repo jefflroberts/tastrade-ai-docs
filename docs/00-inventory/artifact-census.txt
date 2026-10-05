@@ -1,0 +1,46 @@
+forms/behindsc.sc2: name=frmbehindsc parentclass=tsbaseform classlib=..\libs\tsbase.vcx control_count=9 controls=9 cursors=1 methods=28 method_count=28 code_lines=558 tables=5 calls_reports=1 calls_forms=1
+forms/casestdy.sc2: name=frmcasestudy parentclass=tstextform classlib=..\libs\tsbase.vcx control_count=0 controls=0 cursors=1 methods=2 method_count=2 code_lines=20 tables=5 calls_reports=1 calls_forms=0
+forms/category.sc2: name=frmcategory parentclass=tsmaintform classlib=..\libs\tsbase.vcx control_count=10 controls=10 cursors=1 methods=6 method_count=6 code_lines=55 tables=5 calls_reports=0 calls_forms=0
+forms/chngpswd.sc2: name=frmchangepassword parentclass=tsbaseform classlib=..\libs\tsbase.vcx control_count=13 controls=13 cursors=1 methods=8 method_count=8 code_lines=60 tables=5 calls_reports=0 calls_forms=1
+forms/custadd.sc2: name=frmaddcustomer parentclass=tsbaseform classlib=..\libs\tsbase.vcx control_count=4 controls=4 cursors=1 methods=8 method_count=8 code_lines=49 tables=5 calls_reports=0 calls_forms=1
+forms/customer.sc2: name=frmcustomers parentclass=tsmaintform classlib=..\libs\tsbase.vcx control_count=29 controls=29 cursors=1 methods=4 method_count=4 code_lines=19 tables=5 calls_reports=0 calls_forms=0
+forms/employee.sc2: name=frmemployee parentclass=tsmaintform classlib=..\libs\tsbase.vcx control_count=58 controls=58 cursors=2 methods=11 method_count=11 code_lines=83 tables=5 calls_reports=0 calls_forms=0
+forms/getinv.sc2: name=form1 parentclass=form control_count=5 controls=5 cursors=0 methods=4 method_count=4 code_lines=10 tables=5 calls_reports=0 calls_forms=0
+forms/gettitle.sc2: name=frmgettitle parentclass=form control_count=5 controls=5 cursors=1 methods=8 method_count=8 code_lines=22 tables=5 calls_reports=0 calls_forms=0
+forms/ordentry.sc2: name=frmorderentry parentclass=orderentry classlib=..\libs\orders.vcx control_count=18 controls=18 cursors=5 methods=33 method_count=33 code_lines=238 tables=5 calls_reports=0 calls_forms=1
+forms/ordhist.sc2: name=frmordhistory parentclass=tsbaseform classlib=..\libs\tsbase.vcx control_count=32 controls=32 cursors=6 methods=15 method_count=15 code_lines=294 tables=5 calls_reports=0 calls_forms=0
+forms/product.sc2: name=frmproducts parentclass=tsmaintform classlib=..\libs\tsbase.vcx control_count=44 controls=44 cursors=3 methods=7 method_count=7 code_lines=47 tables=5 calls_reports=0 calls_forms=0
+forms/rebuild.sc2: name=frmdatabaseutils parentclass=tsbaseform classlib=..\libs\tsbase.vcx control_count=4 controls=4 cursors=0 methods=6 method_count=6 code_lines=50 tables=5 calls_reports=0 calls_forms=0
+forms/reports.sc2: name=frmreports parentclass=tsbaseform classlib=..\libs\tsbase.vcx control_count=7 controls=7 cursors=1 methods=9 method_count=9 code_lines=73 tables=5 calls_reports=0 calls_forms=0
+forms/shipper.sc2: name=frmshippers parentclass=tsmaintform classlib=..\libs\tsbase.vcx control_count=4 controls=4 cursors=1 methods=3 method_count=3 code_lines=26 tables=5 calls_reports=0 calls_forms=0
+forms/supplier.sc2: name=frmsuppliers parentclass=tsmaintform classlib=..\libs\tsbase.vcx control_count=40 controls=40 cursors=1 methods=3 method_count=3 code_lines=26 tables=5 calls_reports=0 calls_forms=0
+forms/viewcode.sc2: name=frmviewcode parentclass=tstextform classlib=..\libs\tsbase.vcx control_count=0 controls=0 cursors=0 methods=2 method_count=2 code_lines=22 tables=5 calls_reports=1 calls_forms=0
+libs/about.vc2: class_count=1 classes=1
+libs/login.vc2: class_count=2 classes=2
+libs/main.vc2: class_count=1 classes=1
+libs/orders.vc2: class_count=2 classes=2
+libs/tsbase.vc2: class_count=17 classes=17
+libs/tsgen.vc2: class_count=8 classes=8
+reports/behindsc.fr2: record_count=25 field_count=3 label_count=7 fields=3 labels=7 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=1 cursors=1 de_props=8 de_methods=0 printer=13 printer_device=LaserNT records=25
+reports/casestdy.fr2: record_count=25 field_count=3 label_count=7 fields=3 labels=7 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=1 cursors=1 de_props=5 de_methods=0 printer=15 printer_device=LaserNT records=25
+reports/listcat.fr2: record_count=29 field_count=4 label_count=9 fields=4 labels=9 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=29
+reports/listcust.fr2: record_count=30 field_count=5 label_count=10 fields=5 labels=10 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=30
+reports/listempl.fr2: record_count=32 field_count=6 label_count=10 fields=6 labels=10 variables=0 bands=5 group_expressions=1 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=8 de_methods=2 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=32
+reports/listprod.fr2: record_count=31 field_count=6 label_count=11 fields=6 labels=11 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=31
+reports/listship.fr2: record_count=26 field_count=3 label_count=8 fields=3 labels=8 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=26
+reports/listsupp.fr2: record_count=30 field_count=5 label_count=10 fields=5 labels=10 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=30
+reports/orders.fr2: record_count=66 field_count=20 label_count=20 fields=20 labels=20 variables=2 bands=5 group_expressions=1 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=8 de_methods=2 printer=12 records=66
+reports/salesdet.fr2: record_count=52 field_count=6 label_count=11 fields=6 labels=11 variables=0 bands=6 group_expressions=1 suppression_rules=0 images=0 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=10 printer_device=\\MSPRINT32\2/1MC PRIVJ 157.56.32.242 records=52
+reports/salessum.fr2: record_count=33 field_count=5 label_count=10 fields=5 labels=10 variables=0 bands=4 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=0 cursors=1 de_props=5 de_methods=0 printer=13 printer_device=LaserNT records=33
+reports/topcust.fr2: record_count=35 field_count=6 label_count=11 fields=6 labels=11 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=1 cursors=4 de_props=6 de_methods=0 printer=13 printer_device=LaserNT records=35
+reports/viewcode.fr2: record_count=23 field_count=3 label_count=7 fields=3 labels=7 variables=0 bands=3 group_expressions=0 suppression_rules=0 images=1 referenced_aliases=1 cursors=0 de_props=5 de_methods=0 printer=15 printer_device=HP LaserJet 4Si/4SiMX PS records=23
+menus/intro.mn2: menu_type=1 location=REPLACE pad_count=2 bar_count=5 pads=2 popups=3 procedures=2 empty_popups=1
+menus/main.mn2: menu_type=1 location=REPLACE setup_code=#INCLUDE "INCLUDE\TASTRADE.H" pad_count=6 bar_count=46 pads=6 popups=11 procedures=4 empty_popups=5
+menus/navigate.mn2: menu_type=1 location=AFTER _MFILE setup_code=#INCLUDE "INCLUDE\TASTRADE.H" pad_count=1 bar_count=4 pads=1 popups=1 procedures=0 empty_popups=0
+menus/ordentry.mn2: menu_type=1 location=AFTER _MEDIT pad_count=1 bar_count=2 pads=1 popups=1 procedures=0 empty_popups=0
+menus/window.mn2: menu_type=1 location=AFTER _MFILE setup_code=#INCLUDE "INCLUDE\TASTRADE.H" cleanup_code=RELEASE BAR 1 OF Window pad_count=1 bar_count=1 pads=1 popups=2 procedures=0 empty_popups=1
+data/behindsc.db2: table=behindsc code_page=1252 file_type=Visual FoxPro field_count=4 fields=4 index_count=3 indexes=3
+data/repolist.db2: table=repolist code_page=1252 file_type=Visual FoxPro field_count=3 fields=3 index_count=3 indexes=3
+data/tastrade.dc2: name=TASTRADE table_count=10 view_count=13 tables=10 views=13 relations=8 stored_proc_lines=2429 integrity=6
+help/ttrade.db2: table=ttrade code_page=1252 file_type=Visual FoxPro field_count=3 fields=3 index_count=0 indexes=0
+tastrade.pj2: meta=7 dev_info=18 home_dir=c:\fox\tastrade main_file=progs\main.prg properties=9 file_count=78 files=78 excluded=5 type_counts=9

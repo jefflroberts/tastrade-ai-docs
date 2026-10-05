@@ -1,0 +1,6 @@
+free-table sweep start 2026-09-09T14:40:56  root=C:\fox\tastrade  targets=3
+FoxBin2PRG version: v1.21.04
+OK   rc=0    twin=True  bytes=4060    ms=58     data\behindsc.dbf
+OK   rc=0    twin=True  bytes=3419    ms=12     data\repolist.dbf
+OK   rc=0    twin=True  bytes=2681    ms=8      help\ttrade.dbf
+free-table sweep done 2026-09-09T14:40:56  ok=3 fail=0  tool_reported_error=False

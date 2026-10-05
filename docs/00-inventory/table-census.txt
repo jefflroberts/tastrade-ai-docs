@@ -1,0 +1,19 @@
+tables: 12   errors: 0
+total rows: 4,210
+total size: 0.00 GB
+
+table                             rows        MB  flds
+orders.dbf                       1,079       0.2    17
+orditems.dbf                     2,821       0.1     4
+customer.dbf                        92       0.0    15
+products.dbf                        77       0.0    12
+supplier.dbf                        29       0.0    11
+behindsc.dbf                        65       0.0     4
+employee.dbf                        15       0.0    19
+repolist.dbf                        10       0.0     3
+category.dbf                         8       0.0     5
+user_lev.dbf                         4       0.0     3
+setup.dbf                            7       0.0     2
+shippers.dbf                         3       0.0     2
+
+wrote docs/00-inventory/table-census.json

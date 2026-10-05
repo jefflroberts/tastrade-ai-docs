@@ -1,0 +1,57 @@
+﻿data/customer.cdx: changed (cdx, 8192 -> 8704 bytes; an index or memo file, not diffed by record)
+data/customer.dbf: records 92 -> 93; header stamp, record count, 2 record(s) changed, 1 record(s) appended
+  record 1: CONTACT_TI 'Sales Representative' -> 'Baseline Reviewer'
+  record 93: deletion flag '\x1a' -> '*'
+  record 93: CUSTOMER_I '' -> 'BASEL'
+  record 93: COMPANY_NA '' -> 'Baseline Capture Co.'
+  record 93: CONTACT_NA '' -> 'Baseline Reviewer'
+  record 93: CONTACT_TI '' -> ''
+  record 93: ADDRESS '' -> ''
+  record 93: CITY '' -> ''
+  record 93: REGION '' -> ''
+  record 93: POSTAL_COD '' -> ''
+  record 93: COUNTRY '' -> ''
+  record 93: PHONE '' -> ''
+  record 93: FAX '' -> ''
+  record 93: MAX_ORDER_ 0.0000 -> 5000.0000
+  record 93: MIN_ORDER_ 0.0000 -> 0.0000
+  record 93: DISCOUNT '' -> 0
+  record 93: SALES_REGI '' -> ''
+  new record 93: CUSTOMER_I='BASEL', COMPANY_NA='Baseline Capture Co.', CONTACT_NA='Baseline Reviewer', MAX_ORDER_=5000.0000, DISCOUNT=0
+data/employee.dbf: records 15 -> 15; header stamp, 1 record(s) changed
+  record 1: PASSWORD 'Buck' -> 'baseline'
+data/orders.cdx: changed (cdx, 39936 -> 39936 bytes; an index or memo file, not diffed by record)
+data/orders.dbf: records 1079 -> 1081; header stamp, record count, 1 record(s) changed, 2 record(s) appended
+  record 1080: deletion flag '\x1a' -> ' '
+  record 1080: ORDER_ID '' -> '  1138'
+  record 1080: CUSTOMER_I '' -> 'ALFKI'
+  record 1080: SHIPPER_ID '' -> '     1'
+  record 1080: ORDER_NUMB '' -> '  1138'
+  record 1080: ORDER_DATE '' -> '20260909'
+  record 1080: SHIP_TO_NA '' -> 'Alfreds Futterkiste'
+  record 1080: SHIP_TO_AD '' -> 'Obere Str. 57'
+  record 1080: SHIP_TO_CI '' -> 'Berlin'
+  record 1080: SHIP_TO_RE '' -> ''
+  record 1080: SHIP_TO_PO '' -> '12209'
+  record 1080: SHIP_TO_CO '' -> 'Germany'
+  record 1080: DISCOUNT '' -> 2
+  record 1080: FREIGHT 0.0000 -> 0.0000
+  record 1080: PAID '' -> ''
+  record 1080: DELIVER_BY '' -> '20260916'
+  record 1080: NOTES  -> 00000000
+  record 1080: EMPLOYEE_I '' -> '     1'
+  new record 1080: ORDER_ID='  1138', CUSTOMER_I='ALFKI', SHIPPER_ID='     1', ORDER_NUMB='  1138', ORDER_DATE='20260909', SHIP_TO_NA='Alfreds Futterkiste', SHIP_TO_AD='Obere Str. 57', SHIP_TO_CI='Berlin', SHIP_TO_PO='12209', SHIP_TO_CO='Germany', DISCOUNT=2, DELIVER_BY='20260916', EMPLOYEE_I='     1'
+  new record 1081: ORDER_ID='  1139', CUSTOMER_I='ALFKI', SHIPPER_ID='     1', ORDER_NUMB='  1139', ORDER_DATE='20260909', SHIP_TO_NA='Alfreds Futterkiste', SHIP_TO_AD='Obere Str. 57', SHIP_TO_CI='Berlin', SHIP_TO_PO='12209', SHIP_TO_CO='Germany', DISCOUNT=2, DELIVER_BY='20260916', EMPLOYEE_I='     1'
+data/orditems.cdx: changed (cdx, 25088 -> 25088 bytes; an index or memo file, not diffed by record)
+data/orditems.dbf: records 2821 -> 2824; header stamp, record count, 1 record(s) changed, 3 record(s) appended
+  record 2822: deletion flag '\x1a' -> ' '
+  record 2822: ORDER_ID '' -> '  1138'
+  record 2822: PRODUCT_ID '' -> '     1'
+  record 2822: UNIT_PRICE 0.0000 -> 18.0000
+  record 2822: QUANTITY '' -> 150.000
+  new record 2822: ORDER_ID='  1138', PRODUCT_ID='     1', UNIT_PRICE=18.0000, QUANTITY=150.000
+  new record 2823: ORDER_ID='  1139', QUANTITY=1.000
+  new record 2824: ORDER_ID='  1139', PRODUCT_ID='     1', UNIT_PRICE=18.0000, QUANTITY=150.000
+data/setup.dbf: records 7 -> 7; header stamp, 2 record(s) changed
+  record 6: VALUE '  1138' -> '  1140'
+  record 7: VALUE '  1138' -> '  1140'

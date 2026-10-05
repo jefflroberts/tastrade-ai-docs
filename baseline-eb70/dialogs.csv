@@ -1,0 +1,3 @@
+﻿seq,time,title,text,buttons,pressed,file
+1,"16:32:57","Report Parameters","VFP form gettitle opened by a report data environment; width 308 px on screen","OK (default)/Cancel","Enter","forms\gettitle.png"
+2,"16:34:22","Report Parameters","VFP form getinv opened by a report data environment; width 267 px on screen","OK (default)/Cancel","Enter","forms\getinv.png"

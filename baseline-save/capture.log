@@ -1,0 +1,107 @@
+2026-09-09T18:41:40 VFP windows visible at harness start, now hidden: Standard; 
+2026-09-09T18:41:40 harness start; pass save; VFP Visual FoxPro 09.00.0000.5815 for Windows; output C:\fox\tastrade\baseline-save\; REPORTBEHAVIOR 80; ENGINEBEHAVIOR 90 (VFP 9 default); screen 1024x700; default printer BROTHER MFC-L2717DW-AIRPRINT
+2026-09-09T18:41:40 DO C:\fox\tastrade\tastrade.exe
+2026-09-09T18:41:41 sentinel: modal introform (Introform) 'Introductory Form' as introform
+2026-09-09T18:41:44 form introform ok (469x328 modal)
+2026-09-09T18:41:44 sentinel: dismissed introform with cmdContinue.Click()
+2026-09-09T18:41:44 application ready: CURDIR \FOX\TASTRADE\, PATH PROGS, FORMS, LIBS,  MENUS, DATA, OTHER,  REPORTS, INCLUDE, HELP,  BITMAPS, DBC C:\FOX\TASTRADE\DATA\TASTRADE.DBC, menu bars 6
+2026-09-09T18:41:48 screen main ok (main window after start-up, no form open)
+2026-09-09T18:41:48 step 1 save-customer customer
+2026-09-09T18:41:51 form customer-before ok (604x352)
+2026-09-09T18:41:51 customer: contact title was 'Sales Representative', set to 'Baseline Reviewer'
+2026-09-09T18:41:51 customer: Save() returned .T.
+2026-09-09T18:41:54 form customer-saved ok (604x352)
+2026-09-09T18:41:56 step 2 modal custadd
+2026-09-09T18:41:56 sentinel: modal frmAddCustomer (Tsbaseform) 'Add Customer' as custadd
+2026-09-09T18:41:59 form custadd ok (599x354 modal)
+2026-09-09T18:42:02 form custadd-filled ok (599x354 modal)
+2026-09-09T18:42:02 sentinel: scenario closed custadd
+2026-09-09T18:42:02 driver custadd returned
+2026-09-09T18:42:04 step 3 save-order ordentry
+2026-09-09T18:42:04 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T18:42:04 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T18:42:04 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T18:42:04 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T18:42:04 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T18:42:04 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T18:42:04 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T18:42:04 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T18:42:10 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T18:42:10 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T18:42:10 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T18:42:10 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T18:42:10 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T18:42:10 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T18:42:10 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T18:42:10 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T18:42:14 form ordentry-before ok (607x354)
+2026-09-09T18:42:15 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T18:42:15 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T18:42:17 ERROR 1583 Record validation rule is violated. in REMAININGCREDIT line 77
+2026-09-09T18:42:17 error REMAININGCREDIT error (1583 Record validation rule is violated. line 77)
+2026-09-09T18:42:17 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T18:42:17 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T18:42:17 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T18:42:17 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T18:42:18 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T18:42:18 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T18:42:18 ERROR 24 Alias name is already in use. in REMAININGCREDIT line 66
+2026-09-09T18:42:18 error REMAININGCREDIT error (24 Alias name is already in use. line 66)
+2026-09-09T18:42:18 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T18:42:18 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T18:42:18 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T18:42:18 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T18:42:18 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T18:42:18 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T18:42:18 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T18:42:18 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T18:42:18 ERROR 107 Operator/operand type mismatch. in VALORDER line 138
+2026-09-09T18:42:18 error VALORDER error (107 Operator/operand type mismatch. line 138)
+2026-09-09T18:42:18 ERROR 107 Operator/operand type mismatch. in VALORDER line 139
+2026-09-09T18:42:18 error VALORDER error (107 Operator/operand type mismatch. line 139)
+2026-09-09T18:42:18 ERROR 11 Function argument value, type, or count is invalid. in VALORDER line 145
+2026-09-09T18:42:18 error VALORDER error (11 Function argument value, type, or count is invalid. line 145)
+2026-09-09T18:42:18 ERROR 107 Operator/operand type mismatch. in VALORDER line 146
+2026-09-09T18:42:18 error VALORDER error (107 Operator/operand type mismatch. line 146)
+2026-09-09T18:42:18 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T18:42:18 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T18:42:18 ERROR 13 Alias '_ORDERS' is not found. in REMAININGCREDIT line 79
+2026-09-09T18:42:18 error REMAININGCREDIT error (13 Alias '_ORDERS' is not found. line 79)
+2026-09-09T18:42:18 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T18:42:18 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T18:42:18 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T18:42:18 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T18:42:18 ERROR 1807 SQL: GROUP BY clause is missing or invalid. in REMAININGCREDIT line 75
+2026-09-09T18:42:18 error REMAININGCREDIT error (1807 SQL: GROUP BY clause is missing or invalid. line 75)
+2026-09-09T18:42:18 ERROR 12 Variable 'TOTALORDER' is not found. in REMAININGCREDIT line 77
+2026-09-09T18:42:18 error REMAININGCREDIT error (12 Variable 'TOTALORDER' is not found. line 77)
+2026-09-09T18:42:18 ERROR 13 Alias 'ORDERAMOUNTS' is not found. in REMAININGCREDIT line 80
+2026-09-09T18:42:18 error REMAININGCREDIT error (13 Alias 'ORDERAMOUNTS' is not found. line 80)
+2026-09-09T18:42:18 ERROR 107 Operator/operand type mismatch. in REMAININGCREDIT line 84
+2026-09-09T18:42:18 error REMAININGCREDIT error (107 Operator/operand type mismatch. line 84)
+2026-09-09T18:42:21 form ordentry-filled ok (607x354)
+2026-09-09T18:42:51 order: Save() returned .F.
+2026-09-09T18:42:55 form ordentry-saved ok (607x354)
+2026-09-09T18:42:55 driver ordhist skipped (Order History does not open under ENGINEBEHAVIOR 90 (its view fails); the item copy runs with -Engine 70)
+2026-09-09T18:42:56 step 4 modal chngpswd
+2026-09-09T18:42:56 sentinel: modal frmChangePassword (Tsbaseform) 'Change Password' as chngpswd
+2026-09-09T18:42:59 form chngpswd ok (426x168 modal)
+2026-09-09T18:43:02 form chngpswd-filled ok (426x168 modal)
+2026-09-09T18:43:03 sentinel: scenario closed chngpswd
+2026-09-09T18:43:03 driver chngpswd returned
+2026-09-09T18:43:03 step 5 retval loginpicture
+2026-09-09T18:43:03 sentinel: modal loginpicture (Loginpicture) 'Login' as loginpicture
+2026-09-09T18:43:06 form loginpicture ok (437x316 modal)
+2026-09-09T18:43:06 login: combo shows 'Buchanan', value '     1'
+2026-09-09T18:43:09 form loginpicture-filled ok (437x316 modal)
+2026-09-09T18:43:09 sentinel: dismissed loginpicture with cmdCancel.Click()
+2026-09-09T18:43:09 driver loginpicture returned (uRetVal )
+2026-09-09T18:43:10 step 6 save-delete customer
+2026-09-09T18:43:13 form customer-before ok (604x352)
+2026-09-09T18:43:16 form customer-positioned ok (604x352)
+2026-09-09T18:43:16 answer for the next dialog: Yes
+2026-09-09T18:43:18 customer: Delete() of BASEL returned .T.
+2026-09-09T18:43:22 form customer-deleted ok (604x352)
+2026-09-09T18:43:23 step 7 done 
+2026-09-09T18:43:25 screen end ok (main window after every form was released)
+2026-09-09T18:43:25 CLEAR EVENTS; 51 log rows; the application's shutdown and QUIT follow
